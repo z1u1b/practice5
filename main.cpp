@@ -12,6 +12,7 @@ int main()
 //   using namespace std;
   using u_t=size_t;
   u_t a=0,b=0,c=0;
+  std::cin>>c>>b;
   u_t count=0;
 
   while (std::cin>>a) {
