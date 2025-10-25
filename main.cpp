@@ -1,6 +1,6 @@
 #include <iostream>
 #include <limits>
-using u_t = short;
+using u_t = unsigned;
 u_t max_u()
 {
   using namespace std;
@@ -23,6 +23,7 @@ bool isPyth(u_t a, u_t b, u_t c)
     {
       throw std::range_error("Input value out of range");
     }
+
   }
 
   bool con = (a * a + b * b == c * c);
