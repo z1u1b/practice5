@@ -4,13 +4,13 @@ int main()
 //   using namespace std;
   using u_t=size_t;
   u_t a=0;
-  u_t count=0;
+  u_t sum=0;
 
   while (std::cin>>a) {
-    count++;
+    sum+=a*a;
   }
   if (std::cin.eof()) {
-      std::cout << count;
+      std::cout << sum;
       std::cout << "\n";
   }
   else if (std::cin.fail())
@@ -18,7 +18,4 @@ int main()
       std::cerr<<"Error\n";
       return 1;
   }
-//   size_t result = 0;
-//   cout << result << endl;
-//   return 0;
 }
